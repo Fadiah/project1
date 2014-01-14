@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Shopping List</title>
+	</head>
+	<body>
+		<ul>
+			<li>Flour</li>
+			<li>Onions</li>
+			<li>Banana</li>
+			<li><a href='google.com/g=suggsr'>Sugar</a></li>
+			<li><b>Mango</b></li>
+			<li>Pineapple</li>	
+			<LI>Orange</li>
+			<li>Apple</li>
+		</ul>
+	</body>
+</html
