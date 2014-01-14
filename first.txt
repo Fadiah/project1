@@ -1,0 +1,28 @@
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Fadiah/shopping-list.git
+git push -u origin master
+Push an existing repository from the command line
+
+git remote add origin https://github.com/Fadiah/shopping-list.git
+git push -u origin master
+
+http://cs75.tv/2012/summer/sections/
+https://www.cs164.net/Main_Page
+
+$ git —version
+git version 1.8.3.4 (Apple Git-47)
+$ git init project1
+$ ls -al
+
+http://www.centerkey.com/tree/
+the following is equivalent to tree
+$ ls -R | grep ":" | sed -e 's/://' -e 's/[^-][^\/]*\//--/g' -e 's/^/ /' -e 's/-/|/‘
+
+Better 
+vim /usr/local/bin/tree
+Enter following as it's content.
+#!/bin/bash
+find $1 -print | sed -e 's;[^/]*/;|--;g;s;--|; |;g'
